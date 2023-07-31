@@ -13,7 +13,7 @@ Puzzle::Puzzle(const std::vector<int>& nums) {
   texture.loadFromFile("./assets/puzzle.png");
 
   w = {128}; n = x = y = dx = dy = {0};
-  grid = {0};
+  grid.fill({0});
   for(size_t i {}; i < 4; ++i) {
     for(size_t j {}; j < 4; ++j) {
       ++n;
