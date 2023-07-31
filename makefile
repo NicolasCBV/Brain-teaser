@@ -1,10 +1,11 @@
+VERSION=-std=c++20
 TARGET=bin
 CXX=g++
 DEBUG=-g
 OPT=-O0
 WARN=-Wall
 SFML=-lsfml-graphics -lsfml-window -lsfml-system
-CXXFLAGS=$(DEBUG) $(OPT) $(WARN) $(SFML)
+CXXFLAGS=$(DEBUG) $(OPT) $(WARN) $(SFML) $(VERSION)
 LD=g++
 OBJS=main.o puzzle.o
 all: $(OBJS)
