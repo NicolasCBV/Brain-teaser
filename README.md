@@ -5,6 +5,6 @@ This game was made with the help of the YouTube channel "Terminal Root". Check t
 
 Run ```make``` on project to build and run application.
 
-<img href="./assets/example.png" alt="puzzle app image"/>
+<img src="./assets/example.png" alt="puzzle app image"/>
 
 
